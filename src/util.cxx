@@ -25,7 +25,7 @@
 using namespace pqxx::internal;
 
 
-constexpr char
+const char
 	pqxx::internal::sql_begin_work[] = "BEGIN",
 	pqxx::internal::sql_commit_work[] = "COMMIT",
 	pqxx::internal::sql_rollback_work[] = "ROLLBACK";
